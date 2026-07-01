@@ -14,10 +14,12 @@ agent_study/
 ├── notes/
 │   ├── paper-notes/              # 论文笔记
 │   ├── concept-notes/            # 核心概念笔记（U1-U41 + U-DL）
+| `prompt-qa.md` | Prompt 工程（U3）：Zero-shot/Few-shot/CoT / System Prompt 4 要素 / Anthropic 12 法则 / XML 标签 / Pydantic Mode / Prompt 注入防御 / Temperature 调参 | 🆕 ~40 题 |
 │   └── interview-qa/            # 面试题整理
+| `planning-qa.md` | Planning 与推理（U7）：GSM-SF / ToT / PoT / Plan-and-Solve / LLM Compiler / ADaPT / 子目标缓存 / 状态回溯 / 失败恢复 / 系统设计 | 🆕 ~30 题 |
 ├── projects/
 │   └── README.md                # 项目实践记录
-├── progress/
+| `context-harness-qa.md` | Context Engineering & Harness Engineering：5大组件 / Just-in-time / Long-horizon技术 / 11组件 / H0-H3 / Claude Code案例 | 🆕 ~21 题 |
 │   ├── _tracker.md              # 进度追踪
 │   └── weekly-reviews/          # 每周复盘
 └── tools/                       # 框架/工具速查指南

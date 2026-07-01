@@ -79,6 +79,87 @@
 8. **LangChain** (Anthropic, 2023) - LLM 应用框架
 9. **AutoGen** (Microsoft, 2023) - 多 Agent 协作框架
 
+
+## 必读论文 Top 30（按主题分类）
+
+> 来源：业界共识 + 100-Agentic-AI-Interview-Questions + 本仓库 41 单元引用
+
+### 大模型基础（必读 5 篇）
+
+| # | 论文 | 年份 | 核心贡献 | 对应单元 |
+| --- | --- | --- | --- | --- |
+| 1 | Attention Is All You Need (Vaswani et al.) | 2017 | Transformer 架构，self-attention | U1 |
+| 2 | GPT-3 (Brown et al.) | 2020 | 涌现能力，few-shot learning | U1 |
+| 3 | InstructGPT (Ouyang et al.) | 2022 | RLHF 奠基，alignment | U30 |
+| 4 | Llama 2 (Touvron et al.) | 2023 | 开源 LLM 标杆，指令微调 | U1 |
+| 5 | Chinchilla (Hoffmann et al.) | 2022 | 数据缩放律，compute-optimal | U28 |
+
+### RAG（必读 4 篇）
+
+| # | 论文 | 年份 | 核心贡献 | 对应单元 |
+| --- | --- | --- | --- | --- |
+| 6 | RAG (Lewis et al.) | 2020 | RAG 范式，retrieval-augmented | U4 |
+| 7 | Self-RAG (Asai et al.) | 2023 | 自反思 RAG，critique tokens | U4 |
+| 8 | GraphRAG (Edge et al.) | 2024 | 知识图谱增强 RAG | U15 |
+| 9 | HyDE (Gao et al.) | 2022 | 假设文档嵌入，提升召回 | U15 |
+
+### Agent 架构（必读 6 篇）
+
+| # | 论文 | 年份 | 核心贡献 | 对应单元 |
+| --- | --- | --- | --- | --- |
+| 10 | ReAct (Yao et al.) | 2022 | Reasoning + Acting 交替 | U5 |
+| 11 | Toolformer (Schick et al.) | 2023 | LLM 学会使用工具 | U6 |
+| 12 | BabyAGI (Nakajima) | 2023 | 任务驱动的自主 Agent | U7 |
+| 13 | Plan-and-Solve (Wang et al.) | 2023 | 先规划后执行 | U7 |
+| 14 | LLM Compiler (Cheng et al.) | 2024 | 并行规划，4x 加速 | U7 |
+| 15 | ADaPT (Dagan et al.) | 2023 | 自适应任务分解 | U7 |
+
+### Memory & Context（必读 4 篇）
+
+| # | 论文 | 年份 | 核心贡献 | 对应单元 |
+| --- | --- | --- | --- | --- |
+| 16 | MemGPT / Letta (Packer et al.) | 2023 | 分层记忆，虚拟上下文 | U8 |
+| 17 | RMT / Scratchpad (Saunders et al.) | 2022 | 外显推理步骤 | U8 |
+| 18 | Effective Context Engineering (Anthropic) | 2025 | Context 工程官方定义 | U22 |
+| 19 | AI Harness Engineering (arXiv 2605.13357) | 2025 | Harness 11 组件责任 | U23 |
+
+### Planning & Reasoning（必读 3 篇）
+
+| # | 论文 | 年份 | 核心贡献 | 对应单元 |
+| --- | --- | --- | --- | --- |
+| 20 | ToT (Yao et al.) | 2023 | Tree of Thoughts，多路径搜索 | U7 |
+| 21 | GoT (Besta et al.) | 2024 | Graph of Thoughts，任意图结构 | U7 |
+| 22 | o1 / OpenAI System Card | 2024 | 推理模型，test-time compute | U24 |
+
+### Multi-Agent（必读 3 篇）
+
+| # | 论文 | 年份 | 核心贡献 | 对应单元 |
+| --- | --- | --- | --- | --- |
+| 23 | AutoGen (Wu et al.) | 2024 | 多 Agent 对话框架 | U9 |
+| 24 | ChatDev (Qian et al.) | 2023 | 软件公司模拟，角色扮演 | U9 |
+| 25 | MetaGPT (Hong et al.) | 2023 | 结构化多 Agent 协作 | U9 |
+
+### Evaluation & Safety（必读 5 篇）
+
+| # | 论文 | 年份 | 核心贡献 | 对应单元 |
+| --- | --- | --- | --- | --- |
+| 26 | SWE-bench (Jimenez et al.) | 2024 | 真实软件工程基准 | U10 |
+| 27 | AgentGym (Zhang et al.) | 2024 | 终身学习 Agent 环境 | U10 |
+| 28 | RAGAS (Es et al.) | 2023 | RAG 评估框架，4 指标 | U10 |
+| 29 | BIPIA (Chen et al.) | 2024 |  Indirect Prompt Injection 攻击 | U18 |
+| 30 | AgentPoison (Zhan et al.) | 2024 | RAG 投毒攻击 | U18 |
+
+### 面试高频追问映射
+
+每篇论文可能的面试题：
+- Attention Is All You Need → "Transformer 为什么能并行？Self-attention 复杂度是多少？"
+- InstructGPT → "RLHF 三步是什么？PPO 为什么比 REINFORCE 好？"
+- ReAct → "ReAct 和 CoT 的区别？什么时候用 ReAct？"
+- BabyAGI → "这个系统的瓶颈在哪？怎么优化？"
+- MemGPT → "分层记忆是怎么实现的？"
+- o1 → "Test-time compute scaling law 是什么？和 pre-training 有什么不同？"
+- BIPIA → "Indirect Prompt Injection 和直接注入的区别？怎么防御？"
+
 ---
 
-*最后更新：2026-05-27*
+*最后更新：2026-07-01*
