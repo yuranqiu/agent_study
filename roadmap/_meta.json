@@ -1,0 +1,829 @@
+{
+  "title": "Agent 学习路线",
+  "version": "2.8",
+  "last_updated": "2026-06-30",
+  "description": "以知识集群（Cluster）+ 单元（Unit）组织，弱化时间线",
+  "clusters": {
+    "C1": {
+      "name": "LLM 与 Prompt 基础",
+      "units": [
+        "U1",
+        "U3",
+        "U14",
+        "U24",
+        "U30",
+        "U32",
+        "U-DL"
+      ]
+    },
+    "C2": {
+      "name": "Embedding 与检索",
+      "units": [
+        "U2",
+        "U16",
+        "U19"
+      ]
+    },
+    "C3": {
+      "name": "RAG",
+      "units": [
+        "U4",
+        "U15"
+      ]
+    },
+    "C4": {
+      "name": "Agent 范式",
+      "units": [
+        "U5",
+        "U6",
+        "U7"
+      ]
+    },
+    "C5": {
+      "name": "Memory 与状态",
+      "units": [
+        "U8",
+        "U11"
+      ]
+    },
+    "C6": {
+      "name": "Multi-Agent 与协议",
+      "units": [
+        "U9",
+        "U13",
+        "U36"
+      ]
+    },
+    "C7": {
+      "name": "评估与安全",
+      "units": [
+        "U10",
+        "U12",
+        "U18",
+        "U34",
+        "U35"
+      ]
+    },
+    "C8": {
+      "name": "多模态与编程 Agent",
+      "units": [
+        "U17",
+        "U20",
+        "U25"
+      ]
+    },
+    "C9": {
+      "name": "Loop Engineering 与长跑 Agent",
+      "units": [
+        "U21",
+        "U27"
+      ]
+    },
+    "C10": {
+      "name": "Agent 运行时工程（Context + Harness）",
+      "units": [
+        "U22",
+        "U23",
+        "U31",
+        "U33",
+        "U37",
+        "U38",
+        "U40"
+      ]
+    },
+    "C11": {
+      "name": "Agent 能力工程化（Skills + AGENTS.md）",
+      "units": [
+        "U26",
+        "U41",
+        "U42"
+      ]
+    },
+    "C12": {
+      "name": "生产工程（Inference + Deploy）",
+      "units": [
+        "U28",
+        "U29",
+        "U39"
+      ]
+    }
+  },
+  "units": {
+    "U1": {
+      "name": "LLM 基础",
+      "cluster": "C1",
+      "status": "todo",
+      "file": "notes/concept-notes/U1-LLM基础.md"
+    },
+    "U2": {
+      "name": "Embedding 与 VectorDB",
+      "cluster": "C2",
+      "status": "todo",
+      "file": "notes/concept-notes/U2-Embedding与VectorDB.md"
+    },
+    "U3": {
+      "name": "Prompt 工程",
+      "cluster": "C1",
+      "status": "todo",
+      "file": "notes/concept-notes/U3-Prompt工程.md"
+    },
+    "U4": {
+      "name": "RAG 基础",
+      "cluster": "C3",
+      "status": "todo",
+      "file": "notes/concept-notes/U4-RAG基础.md"
+    },
+    "U5": {
+      "name": "ReAct 范式",
+      "cluster": "C4",
+      "status": "todo",
+      "file": "notes/concept-notes/U5-ReAct范式.md"
+    },
+    "U6": {
+      "name": "Tool Use 与 Function Calling",
+      "cluster": "C4",
+      "status": "todo",
+      "file": "notes/concept-notes/U6-ToolUse与FunctionCalling.md"
+    },
+    "U7": {
+      "name": "Planning 与 Reasoning",
+      "cluster": "C4",
+      "status": "todo",
+      "file": "notes/concept-notes/U7-Planning与Reasoning.md"
+    },
+    "U8": {
+      "name": "Memory 与 Reflection",
+      "cluster": "C5",
+      "status": "todo",
+      "file": "notes/concept-notes/U8-Memory与Reflection.md"
+    },
+    "U9": {
+      "name": "Multi-Agent 系统",
+      "cluster": "C6",
+      "status": "todo",
+      "file": "notes/concept-notes/U9-MultiAgent系统.md"
+    },
+    "U10": {
+      "name": "Agent 评估与安全",
+      "cluster": "C7",
+      "status": "todo",
+      "file": "notes/concept-notes/U10-Agent评估与安全.md"
+    },
+    "U11": {
+      "name": "Memory 框架对比",
+      "cluster": "C5",
+      "status": "todo",
+      "file": "notes/concept-notes/U11-Memory框架对比.md"
+    },
+    "U12": {
+      "name": "Agent 评估标准",
+      "cluster": "C7",
+      "status": "todo",
+      "file": "notes/concept-notes/U12-Agent评估标准.md"
+    },
+    "U13": {
+      "name": "A2A 协议",
+      "cluster": "C6",
+      "status": "todo",
+      "file": "notes/concept-notes/U13-A2A协议.md"
+    },
+    "U14": {
+      "name": "DSPy",
+      "cluster": "C1",
+      "status": "todo",
+      "file": "notes/concept-notes/U14-DSPy.md"
+    },
+    "U15": {
+      "name": "RAG 进阶",
+      "cluster": "C3",
+      "status": "todo",
+      "file": "notes/concept-notes/U15-RAG进阶.md"
+    },
+    "U16": {
+      "name": "Embedding 进阶",
+      "cluster": "C2",
+      "status": "todo",
+      "file": "notes/concept-notes/U16-Embedding进阶.md"
+    },
+    "U17": {
+      "name": "多模态 Agent",
+      "cluster": "C8",
+      "status": "todo",
+      "file": "notes/concept-notes/U17-多模态Agent.md"
+    },
+    "U18": {
+      "name": "Agent 安全与红队",
+      "cluster": "C7",
+      "status": "todo",
+      "file": "notes/concept-notes/U18-Agent安全与红队.md"
+    },
+    "U19": {
+      "name": "向量数据库深度对比",
+      "cluster": "C2",
+      "status": "todo",
+      "file": "notes/concept-notes/U19-向量数据库深度对比.md"
+    },
+    "U20": {
+      "name": "编程 Agent 内部原理",
+      "cluster": "C8",
+      "status": "todo",
+      "file": "notes/concept-notes/U20-编程Agent内部原理.md"
+    },
+    "U21": {
+      "name": "Loop Engineering",
+      "cluster": "C9",
+      "status": "todo",
+      "file": "notes/concept-notes/U21-LoopEngineering.md"
+    },
+    "U22": {
+      "name": "Context Engineering",
+      "cluster": "C10",
+      "status": "todo",
+      "file": "notes/concept-notes/U22-ContextEngineering.md"
+    },
+    "U23": {
+      "name": "Harness Engineering",
+      "cluster": "C10",
+      "status": "todo",
+      "file": "notes/concept-notes/U23-HarnessEngineering.md"
+    },
+    "U24": {
+      "name": "Reasoning Model / Test-time Compute",
+      "cluster": "C1",
+      "status": "todo",
+      "file": "notes/concept-notes/U24-ReasoningModel.md"
+    },
+    "U25": {
+      "name": "Computer Use / GUI Agent",
+      "cluster": "C8",
+      "status": "todo",
+      "file": "notes/concept-notes/U25-ComputerUse.md"
+    },
+    "U26": {
+      "name": "Agent Skills & AGENTS.md",
+      "cluster": "C11",
+      "status": "todo",
+      "file": "notes/concept-notes/U26-AgentSkills.md"
+    },
+    "U27": {
+      "name": "Goal Engineering",
+      "cluster": "C9",
+      "status": "todo",
+      "file": "notes/concept-notes/U27-GoalEngineering.md"
+    },
+    "U28": {
+      "name": "LLM Inference & Cost/Latency 工程",
+      "cluster": "C12",
+      "status": "todo",
+      "file": "notes/concept-notes/U28-LLMInference.md"
+    },
+    "U29": {
+      "name": "Agent 部署 & Sandbox DevOps",
+      "cluster": "C12",
+      "status": "todo",
+      "file": "notes/concept-notes/U29-AgentDeploy.md"
+    },
+    "U30": {
+      "name": "Post-training 与 Alignment",
+      "cluster": "C1",
+      "status": "todo",
+      "file": "notes/concept-notes/U30-PostTraining.md"
+    },
+    "U31": {
+      "name": "Structured Output & Validation",
+      "cluster": "C10",
+      "status": "todo",
+      "file": "notes/concept-notes/U31-StructuredOutput.md"
+    },
+    "U32": {
+      "name": "Fine-tuning 实践",
+      "cluster": "C1",
+      "status": "todo",
+      "file": "notes/concept-notes/U32-FineTuning.md"
+    },
+    "U33": {
+      "name": "Human-in-the-loop 设计",
+      "cluster": "C10",
+      "status": "todo",
+      "file": "notes/concept-notes/U33-HumanInTheLoop.md"
+    },
+    "U34": {
+      "name": "Guardrails 与 Output 防御",
+      "cluster": "C7",
+      "status": "todo",
+      "file": "notes/concept-notes/U34-Guardrails.md"
+    },
+    "U35": {
+      "name": "AgentOps / Eval 工具链",
+      "cluster": "C7",
+      "status": "todo",
+      "file": "notes/concept-notes/U35-AgentOps.md"
+    },
+    "U36": {
+      "name": "MCP 深入（Model Context Protocol）",
+      "cluster": "C6",
+      "status": "todo",
+      "file": "notes/concept-notes/U36-MCPDeep.md"
+    },
+    "U37": {
+      "name": "Subagents 与任务隔离",
+      "cluster": "C10",
+      "status": "todo",
+      "file": "notes/concept-notes/U37-Subagents.md"
+    },
+    "U38": {
+      "name": "Context 管理深入",
+      "cluster": "C10",
+      "status": "todo",
+      "file": "notes/concept-notes/U38-ContextManagement.md"
+    },
+    "U39": {
+      "name": "Permission & Auto Mode",
+      "cluster": "C12",
+      "status": "todo",
+      "file": "notes/concept-notes/U39-Permission.md"
+    },
+    "U40": {
+      "name": "Verification / Adversarial Review",
+      "cluster": "C10",
+      "status": "todo",
+      "file": "notes/concept-notes/U40-Verification.md"
+    },
+    "U41": {
+      "name": "Agent 全栈项目学习路线",
+      "cluster": "C11",
+      "status": "todo",
+      "file": "notes/concept-notes/U41-AgentProjectPath.md"
+    },
+    "U-DL": {
+      "name": "深度学习扫盲",
+      "cluster": "C1",
+      "status": "todo",
+      "file": "notes/concept-notes/UD-DL深度学习扫盲.md"
+    },
+    "U42": {
+      "name": "面试真题与学习顺序（校招向）",
+      "cluster": "C11",
+      "status": "todo",
+      "file": "notes/concept-notes/U42-InterviewGuide.md"
+    }
+  },
+  "tools": {
+    "langchain-guide.md": {
+      "covers": [
+        "U5",
+        "U6",
+        "U7",
+        "U8",
+        "U9",
+        "U11"
+      ]
+    },
+    "llamaindex-guide.md": {
+      "covers": [
+        "U11",
+        "U15",
+        "U16",
+        "U17"
+      ]
+    },
+    "crewai-guide.md": {
+      "covers": [
+        "U9",
+        "U11"
+      ]
+    },
+    "autogen-guide.md": {
+      "covers": [
+        "U9"
+      ]
+    },
+    "mcp-guide.md": {
+      "covers": [
+        "U6",
+        "U13",
+        "U36"
+      ]
+    },
+    "smolagents-guide.md": {
+      "covers": [
+        "U6"
+      ]
+    },
+    "a2a-guide.md": {
+      "covers": [
+        "U13"
+      ]
+    },
+    "dspy-guide.md": {
+      "covers": [
+        "U14"
+      ]
+    }
+  },
+  "interview_qa": {
+    "agent-core.md": {
+      "covers": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5",
+        "U6",
+        "U7",
+        "U8",
+        "U10"
+      ]
+    },
+    "frameworks.md": {
+      "covers": [
+        "U9",
+        "U11",
+        "U19"
+      ]
+    },
+    "coding-agent.md": {
+      "covers": [
+        "U9",
+        "U10"
+      ]
+    },
+    "coding-agent-internals.md": {
+      "covers": [
+        "U20"
+      ]
+    },
+    "memory-frameworks.md": {
+      "covers": [
+        "U11"
+      ]
+    },
+    "agent-eval.md": {
+      "covers": [
+        "U12"
+      ]
+    },
+    "dspy-qa.md": {
+      "covers": [
+        "U14"
+      ]
+    },
+    "advanced-rag.md": {
+      "covers": [
+        "U15"
+      ]
+    },
+    "security-red-team.md": {
+      "covers": [
+        "U18"
+      ]
+    },
+    "Agent-安全面试题.md": {
+      "covers": [
+        "U18"
+      ]
+    },
+    "multi-modal-agent.md": {
+      "covers": [
+        "U17"
+      ]
+    }
+  },
+  "loop_engineering_projects": {
+    "loopx": {
+      "repo": "huangruiteng/loopx",
+      "role": "本地控制面（Codex/Claude Code/Cursor 通用）"
+    },
+    "loom": {
+      "repo": "valkor-ai/loom",
+      "role": "编程 Agent 的开源自适应交付层"
+    },
+    "paper_agent": {
+      "repo": "whut09/paper_agent",
+      "role": "论文精读的 Loop Engineering 案例"
+    },
+    "oh-my-hermes": {
+      "repo": "rlaope/oh-my-hermes",
+      "role": "多 agent 编排 + loop skills"
+    },
+    "loop-engineering": {
+      "repo": "cobusgreyling/loop-engineering",
+      "role": "pattern 库 + 工具链（loop-init/loop-audit/loop-cost）"
+    },
+    "goal-engineering": {
+      "repo": "cobusgreyling/goal-engineering",
+      "role": "Goal Engineering 概念 + 工具（goal doctor）"
+    },
+    "nexent": {
+      "repo": "ModelEngine-Group/nexent",
+      "role": "零代码 Harness Engineering 平台"
+    }
+  },
+  "reasoning_model_projects": {
+    "openai-o-series": {
+      "name": "OpenAI o1/o3/o4-mini",
+      "role": "闭源推理模型代表"
+    },
+    "deepseek-r1": {
+      "repo": "deepseek-ai/DeepSeek-R1",
+      "role": "开源推理模型（MIT 许可，性价比最高）"
+    },
+    "claude-37-extended": {
+      "name": "Claude 3.7 Sonnet with extended thinking",
+      "role": "Anthropic 推理模式（agent 友好）"
+    },
+    "gemini-thinking": {
+      "name": "Gemini 2.0/2.5 Flash Thinking",
+      "role": "Google 多模态推理模型"
+    },
+    "qwen-qwq": {
+      "name": "Qwen QwQ / Qwen3 Thinking",
+      "role": "阿里开源推理模型（中文友好）"
+    }
+  },
+  "computer_use_projects": {
+    "anthropic-computer-use": {
+      "role": "Anthropic 内置 tool，Claude 3.5+ 模型直接支持"
+    },
+    "openai-operator": {
+      "role": "OpenAI CUA 模型 + Operator 产品"
+    },
+    "ui-tars": {
+      "repo": "bytedance/UI-TARS",
+      "role": "字节开源端到端多模态 GUI Agent"
+    },
+    "browser-use": {
+      "repo": "browser-use/browser-use",
+      "role": "开源、Python、Playwright + LLM 浏览器 Agent"
+    }
+  },
+  "agent_skills_projects": {
+    "agents.md": {
+      "name": "AGENTS.md 开放标准",
+      "role": "GitHub 推动的跨工具 Agent 规则文件"
+    },
+    "anthropic-skills": {
+      "role": "Anthropic Skills 体系（Agent SDK）"
+    },
+    "matt-pocock-skills": {
+      "repo": "mattpocock/skills",
+      "role": "高质量 skills 示例（requirement clarification / TDD / handoff）"
+    },
+    "claude-code-claudemd": {
+      "role": "Claude Code 的 CLAUDE.md 机制"
+    }
+  },
+  "production_engineering_projects": {
+    "vllm": {
+      "repo": "vllm-project/vllm",
+      "role": "高吞吐 LLM serving（PagedAttention）"
+    },
+    "sglang": {
+      "repo": "sgl-project/sglang",
+      "role": "结构化输出 + RadixAttention"
+    },
+    "helicone": {
+      "role": "LLM 专用 gateway（caching / cost / 监控）"
+    },
+    "langfuse": {
+      "role": "LLM observability（trace / cost / latency）"
+    },
+    "docker": {
+      "role": "Agent 沙箱基础"
+    },
+    "firecracker": {
+      "role": "Serverless microVM 沙箱"
+    }
+  },
+  "post_training_projects": {
+    "trl": {
+      "repo": "huggingface/trl",
+      "role": "HuggingFace 官方 SFT/DPO/GRPO/PPO trainer"
+    },
+    "llama-factory": {
+      "repo": "hiyouga/LLaMA-Factory",
+      "role": "中文友好的全功能训练框架（500+ 模型）"
+    },
+    "unsloth": {
+      "repo": "unslothai/unsloth",
+      "role": "2-5x 加速 + 4-bit 量化训练"
+    },
+    "axolotl": {
+      "role": "高度可定制的训练框架（YAML 配置）"
+    },
+    "alignment-handbook": {
+      "repo": "huggingface/alignment-handbook",
+      "role": "HuggingFace 官方 alignment 教程"
+    },
+    "openrlhf": {
+      "repo": "OpenRLHF/OpenRLHF",
+      "role": "字节高性能 RLHF/GRPO 训练"
+    }
+  },
+  "structured_output_projects": {
+    "instructor": {
+      "repo": "jxnel/instructor",
+      "role": "Pydantic + LLM 库（自动 retry + 验证）"
+    },
+    "outlines": {
+      "repo": "outlines-dev/outlines",
+      "role": "Logit masking 约束生成（本地模型首选）"
+    },
+    "guidance": {
+      "repo": "guidance-ai/guidance",
+      "role": "Microsoft 出品，token-level 控制"
+    },
+    "jsonformer": {
+      "role": "确保 100% 合法 JSON 输出"
+    }
+  },
+  "guardrails_projects": {
+    "nemo-guardrails": {
+      "repo": "NVIDIA/NeMo-Guardrails",
+      "role": "工业级全栈护栏框架（Colang）"
+    },
+    "guardrails-ai": {
+      "repo": "guardrails-ai/guardrails",
+      "role": "Output 验证库（Hub validators）"
+    },
+    "presidio": {
+      "repo": "microsoft/presidio",
+      "role": "PII 检测和 anonymization"
+    },
+    "pyrit": {
+      "repo": "Azure/PyRIT",
+      "role": "Microsoft 风险识别 toolkit"
+    }
+  },
+  "agentops_projects": {
+    "promptfoo": {
+      "repo": "promptfoo/promptfoo",
+      "role": "声明式 LLM 评估 + Red Team"
+    },
+    "deepeval": {
+      "repo": "confident-ai/deepeval",
+      "role": "pytest 风格 LLM 评估（14+ metrics）"
+    },
+    "ragas": {
+      "repo": "explodinggradients/ragas",
+      "role": "RAG 评估事实标准（4 大指标）"
+    },
+    "langsmith": {
+      "role": "LangChain 生态 trace + eval 一体化"
+    },
+    "langfuse": {
+      "repo": "langfuse/langfuse",
+      "role": "开源 LLM 观测 + eval（可自部署）"
+    },
+    "arize-phoenix": {
+      "role": "ML 出身的可观测 + drift detection"
+    },
+    "braintrust": {
+      "role": "团队协作 + eval 平台"
+    }
+  },
+  "hitl_projects": {
+    "langgraph": {
+      "repo": "langchain-ai/langgraph",
+      "role": "interrupt() + Command(resume) canonical HITL 模式"
+    },
+    "openai-agents-sdk": {
+      "repo": "openai/openai-agents-python",
+      "role": "声明式 needs_approval + RunState 持久化"
+    },
+    "autogen": {
+      "repo": "microsoft/autogen",
+      "role": "3 种 human_input_mode（NEVER/TERMINATE/ALWAYS）"
+    },
+    "claude-code-hooks": {
+      "role": "Anthropic Claude Code 的 PreToolUse 拦截（shell-based HITL 工业实践）"
+    },
+    "crewai": {
+      "repo": "crewAIInc/crewAI",
+      "role": "human_input=True 参数的轻量 HITL"
+    }
+  },
+  "hitl_papers": {
+    "human-in-the-loop-software-dev": "https://arxiv.org/abs/2506.11009",
+    "centaureval": "https://arxiv.org/abs/2512.04111",
+    "handoff-debt": "https://arxiv.org/abs/2606.02875",
+    "interruptible-agents-long-horizon": "https://arxiv.org/abs/2604.00892",
+    "self-improving-test-time": "https://arxiv.org/abs/2507.17131",
+    "agent-agnostic-rl": "https://arxiv.org/abs/1701.04079",
+    "instructgpt-rlhf": "https://arxiv.org/abs/2203.02155",
+    "ihbench-voice": "https://arxiv.org/abs/2606.19595",
+    "finharness-finance": "https://arxiv.org/abs/2605.27333",
+    "continual-harness": "https://arxiv.org/abs/2605.09998",
+    "zero-shot-llm-rl": "https://arxiv.org/abs/2503.22723",
+    "governance-by-construction": "https://arxiv.org/abs/2605.20874",
+    "eu-ai-act-14": "https://artificialintelligenceact.eu/article/14/",
+    "owasp-llm-top10": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+    "nist-ai-rmf": "https://www.nist.gov/itl/ai-risk-management-framework"
+  },
+  "mcp_projects": {
+    "mcp-spec": {
+      "name": "Model Context Protocol",
+      "role": "Anthropic 推出的统一工具协议（USB-C for LLM）"
+    },
+    "fastmcp": {
+      "role": "Python 快速写 MCP server"
+    },
+    "mcp-typescript-sdk": {
+      "role": "TypeScript 写 MCP server"
+    },
+    "langchain-mcp-adapters": {
+      "repo": "langchain-ai/langchain-mcp-adapters",
+      "role": "LangChain 接入 MCP（3.5k+ stars）"
+    },
+    "mcp-inspector": {
+      "role": "MCP 调试器（类似 Postman）"
+    },
+    "mcp-servers-collection": {
+      "repo": "modelcontextprotocol/servers",
+      "role": "官方 server 实现（filesystem / github / postgres / git）"
+    }
+  },
+  "subagent_projects": {
+    "claude-code-subagents": {
+      "role": "Anthropic Claude Code 的 subagent（.claude/agents/*.md）"
+    },
+    "langgraph-subgraphs": {
+      "role": "LangGraph subgraph（独立 state）"
+    },
+    "openai-agents-as-tool": {
+      "role": "OpenAI Agent.as_tool()（含 HITL）"
+    }
+  },
+  "datawhale_learning_path": {
+    "hello-agents": {
+      "repo": "datawhalechina/hello-agents",
+      "stars": 63002,
+      "role": "中文最系统的 Agent 教程（16 章 + 13 Extra，覆盖 LLM/ReAct/MCP/RAG/Agentic RL 全栈）"
+    },
+    "all-in-rag": {
+      "repo": "datawhalechina/all-in-rag",
+      "stars": 9067,
+      "role": "RAG 技术全栈（10 章 + 2 项目）"
+    },
+    "agent-learning-hub": {
+      "repo": "datawhalechina/Agent-Learning-Hub",
+      "stars": 4581,
+      "role": "Agent 学习路线与资料库"
+    },
+    "agent-skills-anthropic": {
+      "repo": "datawhalechina/agent-skills-with-anthropic",
+      "stars": 1352,
+      "role": "吴恩达 Agent Skills 课程中文版"
+    },
+    "post-training-llms": {
+      "repo": "datawhalechina/post-training-of-llms",
+      "role": "SFT/DPO/GRPO 训练实战"
+    },
+    "hugging-multi-agent": {
+      "repo": "datawhalechina/hugging-multi-agent",
+      "stars": 1402,
+      "role": "MetaGPT 教程"
+    },
+    "handy-multi-agent": {
+      "repo": "datawhalechina/handy-multi-agent",
+      "stars": 768,
+      "role": "CAMEL 框架教程"
+    },
+    "jjyaoao-helloagents": {
+      "repo": "jjyaoao/HelloAgents",
+      "role": "OpenAI 原生 API 自研 multi-agent 框架（hello-agents 配套）"
+    },
+    "learn-claude-code": {
+      "repo": "shareAI-lab/learn-claude-code",
+      "stars": 69210,
+      "role": "Claude Code 复刻教程（s01-s20）"
+    }
+  },
+  "datawhale_rag_projects": {
+    "llm-universe": {
+      "repo": "datawhalechina/llm-universe",
+      "stars": 13370,
+      "role": "大模型应用开发教程"
+    },
+    "self-llm": {
+      "repo": "datawhalechina/self-llm",
+      "stars": 31096,
+      "role": "开源 LLM 部署 + 微调"
+    },
+    "happy-llm": {
+      "repo": "datawhalechina/happy-llm",
+      "stars": 31669,
+      "role": "从零开始构建大模型"
+    },
+    "llm-cookbook": {
+      "repo": "datawhalechina/llm-cookbook",
+      "stars": 24341,
+      "role": "吴恩达大模型系列课程中文版"
+    },
+    "hugging-llm": {
+      "repo": "datawhalechina/hugging-llm",
+      "stars": 3065,
+      "role": "HuggingLLM 全栈教程"
+    }
+  }
+}
